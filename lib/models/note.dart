@@ -12,7 +12,7 @@ class Note {
 final List<Note> notes = [
   Note(
     1,
-    'Test node',
+    'Test Notes',
     'This is a test note',
     Colors.green
   ),
