@@ -14,6 +14,6 @@ final List<Note> notes = [
     1,
     'Test node',
     'This is a test note',
-    Colors.amber
+    Colors.green
   ),
 ];
