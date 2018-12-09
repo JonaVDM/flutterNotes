@@ -20,14 +20,12 @@ class HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Super Fancy Notes App'),
+        title: Text('Just Another Notes App'),
       ),
-      backgroundColor: Colors.yellow,
       floatingActionButton: FloatingActionButton(
         onPressed: _newNote,
         tooltip: 'New note',
         child: Icon(Icons.add),
-        backgroundColor: Colors.green,
       ),
       body: NotesViewWidget(),
     );
