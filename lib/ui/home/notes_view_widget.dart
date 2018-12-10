@@ -5,13 +5,8 @@ import 'package:notes_app/models/note.dart';
 class NotesViewWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     return Column(
-      children: <Widget>[
-        NoteWidget(notes[0]),
-        NoteWidget(notes[0]),
-        NoteWidget(notes[0]),
-      ],
+      children: notes.map((_note) => NoteWidget(_note)).toList(),
     );
   }
 }
